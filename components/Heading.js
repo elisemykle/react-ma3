@@ -1,11 +1,10 @@
-import React from "react";
-import App from './App.js';
-import HomeContent from './HomeContent.js';
-import NewsList from './NewsList.js';
-import LoginForm from './LoginForm.js';
+import React from 'React';
 
-export default function Heading(props) {
-    return <h1>{props.content}</h1>;
+function Heading(props) {
+    return(
+        <div className="heading">
+            <h1 className="heading__content">{props.content}</h1>
+    );
 }
 
 export default Heading;
